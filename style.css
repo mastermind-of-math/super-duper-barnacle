@@ -1,0 +1,89 @@
+body{
+    font-family: monospace;
+    background-color: rgb(230, 230, 230);
+}
+
+#title{
+    padding: 20px;
+    background: linear-gradient(rgb(140, 140, 140) 0%, rgb(190, 190, 190) 100%);
+}
+
+#view{
+    float: right;
+}
+
+#head{
+    background-color: rgb(230, 230, 230);
+}
+
+#modal-top-text{
+    font-size: 24px;
+}
+
+#modal-close{
+    font-size: 40px;
+    color: red;
+}
+
+#modal-close:hover{
+    color: green;
+}
+
+#label, #confidence{
+    font-size: 24px;
+    padding: 8px;
+}
+
+#label{
+    padding-top: 12px;
+    background: linear-gradient(rgb(190, 190, 190) 0%, rgb(210, 210, 210) 100%);
+}
+
+#confidence{
+    background: linear-gradient(rgb(210, 210, 210) 0%, rgb(230, 230, 230) 100%);
+}
+
+#clearCanvas{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 24px;
+    background-color: rgb(255, 166, 166);
+    border-style: none;
+    border-radius: 15px;
+    margin-top: 390px;
+}
+
+#clearCanvas:hover{
+    background-color: rgb(166, 255, 166);
+}
+
+#sercet{
+    background-color: rgb(230, 230, 230);
+    border-style: none;
+    padding: 10px;
+}
+
+canvas{
+    margin-top: 80px;
+    animation-duration: 5s;
+    animation-name: theAnimationForThep5CanvasesBoxShadow;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 50px red;
+    box-shadow: -1px -1px 50px red;
+}
+
+@keyframes theAnimationForThep5CanvasesBoxShadow{
+    0% {box-shadow: 1px 1px 50px red; box-shadow: -1px -1px 50px red;}
+    11% {box-shadow: 1px 1px 50px orangered; box-shadow: -1px -1px 50px orangered;}
+    22% {box-shadow: 1px 1px 50px orange; box-shadow: -1px -1px 50px orange;}
+    33% {box-shadow: 1px 1px 50px yellow; box-shadow: -1px -1px 50px yellow;}
+    44% {box-shadow: 1px 1px 50px yellowgreen; box-shadow: -1px -1px 50px yellowgreen;}
+    55% {box-shadow: 1px 1px 50px rgb(0, 182, 0); box-shadow: -1px -1px 50px rgb(0, 182, 0);}
+    66% {box-shadow: 1px 1px 50px blue; box-shadow: -1px -1px 50px blue;}
+    77% {box-shadow: 1px 1px 50px purple; box-shadow: -1px -1px 50px purple;}
+    88% {box-shadow: 1px 1px 50px pink; box-shadow: -1px -1px 50px pink;}
+    100% {box-shadow: 1px 1px 50px red; box-shadow: -1px -1px 50px red;}
+}
